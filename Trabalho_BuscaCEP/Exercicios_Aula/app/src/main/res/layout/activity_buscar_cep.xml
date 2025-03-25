@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o CEP"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonBuscarCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar CEP" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento (opcional)" />
+
+    <TextView
+        android:id="@+id/textViewLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
