@@ -60,6 +60,6 @@ public class Aluno implements Serializable {
 
     @Override
     public String toString() {
-        return this.nome;
+        return "Nome: " + this.nome + " \nCPF: " + this.CPF + " \nTelefone: " + this.telefone;
     }
 }
