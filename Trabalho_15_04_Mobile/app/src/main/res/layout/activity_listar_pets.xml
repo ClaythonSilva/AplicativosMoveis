@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ListView
+        android:id="@+id/listViewPets"
+        android:layout_width="match_parent"
+        android:layout_height="507dp" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="111dp"
+        android:layout_height="51dp"
+        android:onClick="voltarParaMain"
+        android:text="Voltar" />
+</LinearLayout>
